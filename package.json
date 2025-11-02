@@ -1,0 +1,51 @@
+{
+  "name": "gentleschema",
+  "version": "1.0.0",
+  "description": "A compact, production-friendly JS schema validator.",
+  "main": "src/GentleSchema.js",
+  "types": "src/GentleSchema.d.ts",
+  "directories": {
+    "src": "src",
+    "test": "test",
+    "examples": "src/examples"
+  },
+  "files": [
+    "src",
+    "test",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "import": "./src/GentleSchema.js",
+      "require": "./src/GentleSchema.js"
+    }
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "examples": "node scripts/show_examples.js",
+    "example-basic": "node src/examples/basic.js",
+    "example-bb": "node src/examples/batch_benchmark.js",
+    "example-conditionals": "node src/examples/conditionals.js",
+    "example-express": "node src/examples/express_integration.js",
+    "example-refs": "node src/examples/refs.js"
+  },
+  "keywords": [
+    "schema",
+    "validation",
+    "validator",
+    "schema-validator"
+  ],
+  "bugs": {
+    "url": "https://github.com/100Nothing/gentleschema/issues"
+  },
+  "homepage": "https://github.com/100Nothing/gentleschema#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/100Nothing/gentleschema.git"
+  },
+  "author": "100Nothing",
+  "license": "MIT",
+  "type": "commonjs"
+}
