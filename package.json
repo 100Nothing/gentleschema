@@ -1,6 +1,6 @@
 {
   "name": "gentleschema",
-  "version": "1.0.0",
+  "version": "1.0.01",
   "description": "A compact, production-friendly JS schema validator.",
   "main": "src/GentleSchema.js",
   "types": "src/GentleSchema.d.ts",
